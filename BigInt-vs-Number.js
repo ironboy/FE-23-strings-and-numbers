@@ -7,7 +7,7 @@ let minSafeInt = Number.MIN_SAFE_INTEGER; // -9007199254740991
 // console.log(minSafeInt);
 
 // BigInt vs created to calculate with integers
-// we bigger numbers than Number can handle
+// with bigger numbers than Number can handle
 let aBigInt = 9007199254740991n;
 for (let i = 0; i < 100; i++) {
   aBigInt = aBigInt * 2n;
